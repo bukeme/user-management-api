@@ -11,4 +11,4 @@ router.post("/", createPost);
 router.get("/", getPosts);
 router.delete("/:id", deletePost);
 
-export default router;
+module.exports = router;

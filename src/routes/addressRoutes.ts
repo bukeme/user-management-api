@@ -11,4 +11,4 @@ router.post("/", createAddress);
 router.get("/:userId", getAddress);
 router.patch("/:userId", updateAddress);
 
-export default router;
+module.exports = router;

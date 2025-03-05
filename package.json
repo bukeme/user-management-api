@@ -4,8 +4,10 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.ts",
-    "test": "jest --config=src/tests/jest.config.js"
+    "test": "jest --config=src/tests/jest.config.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",

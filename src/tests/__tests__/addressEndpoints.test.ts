@@ -1,7 +1,7 @@
 import request from "supertest";
 import express from "express";
-import addressRoutes from "../../routes/addressRoutes";
-import userRoutes from "../../routes/userRoutes";
+const userRoutes = require("./routes/userRoutes");
+const addressRoutes = require("./routes/addressRoutes");
 import { db } from "../../db/db";
 
 const app = express();

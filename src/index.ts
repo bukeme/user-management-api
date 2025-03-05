@@ -1,8 +1,8 @@
 const express = require("express");
 const cors = require("cors");
-import userRoutes from "./routes/userRoutes";
-import addressRoutes from "./routes/addressRoutes";
-import postRoutes from "./routes/postRoutes";
+const userRoutes = require("./routes/userRoutes");
+const addressRoutes = require("./routes/addressRoutes");
+const postRoutes = require("./routes/postRoutes");
 
 const app = express();
 

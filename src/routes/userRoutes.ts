@@ -13,4 +13,4 @@ router.get("/count", getUserCount);
 router.get("/:id", getUserById);
 router.post("/", createUser);
 
-export default router;
+module.exports = router;

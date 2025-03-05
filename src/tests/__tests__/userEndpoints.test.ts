@@ -1,6 +1,6 @@
 import request from "supertest";
 import express from "express";
-import userRoutes from "../../routes/userRoutes";
+const userRoutes = require("./routes/userRoutes");
 import { db } from "../../db/db";
 
 const app = express();
