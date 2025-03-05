@@ -12,7 +12,7 @@ https://uma.stylconmarketplace.com
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/user-management-api.git  
+git clone https://github.com/bukeme/user-management-api.git  
 cd user-management-api
 ```
 ### **2️⃣ Install Dependencies**
